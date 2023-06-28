@@ -19,7 +19,7 @@ int main()
     printf("Enter term : ");
     scanf("%d", &n);
     
-    for(i=1 ; i<=n ; i++)
+    for(i=1 ; i<n ; i++)
         printf(" %d ", fibo(i) ) ;
     
     return 0;
